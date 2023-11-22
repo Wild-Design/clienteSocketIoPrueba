@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-height: 100vh;
+  overflow: auto;
+  background-color: #1f1f2f;
+}
+
+#button {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+#table {
+  max-width: 1000px;
+  width: 100%;
+  color: #ccc;
+  border: 1px solid #fff;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #fff;
+  padding: 8px;
+  text-align: center;
+}
+
+.contadorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  background-color: #ccc;
+}
+
+#contador {
+  color: #1f1f2f;
+}
